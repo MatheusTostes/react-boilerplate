@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
-import './locale/i18n';
 import { Outlet } from 'react-router-dom';
 import { Typography } from './components/typography';
 import { Button } from './components/ui/button';
