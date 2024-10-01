@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
 import { Outlet } from 'react-router-dom';
-import { Typography } from './components/typography';
 import { Button } from './components/ui/button';
+import { Home } from './pages/home';
 
 function MainLayout() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
     <div className="relative h-full overflow-auto">
       <Routes>
         <Route element={<MainLayout />}>
-          <Route index element={<Typography>AAA</Typography>} />
+          <Route index element={<Home />} />
           <Route path="/about" element={<Button>AAAbout</Button>} />
           {/* <Route path="/about" element={<About />} /> */}
         </Route>

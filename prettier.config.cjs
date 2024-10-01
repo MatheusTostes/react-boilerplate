@@ -5,8 +5,6 @@ module.exports = {
   singleQuote: true,
   printWidth: 80,
   "plugins": [
-    // "prettier-plugin-organize-attributes",
-    // "prettier-plugin-organize-imports",
     "prettier-plugin-tailwindcss"// Move to the end of the list
   ]
 }
