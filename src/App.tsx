@@ -16,7 +16,7 @@ function MainLayout() {
 
 export default function App() {
   return (
-    <div className="h-full relative overflow-auto">
+    <div className="relative h-full overflow-auto">
       <Routes>
         <Route element={<MainLayout />}>
           <Route index element={<Typography>AAA</Typography>} />
